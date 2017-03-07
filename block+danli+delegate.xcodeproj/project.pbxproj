@@ -10,11 +10,12 @@
 		563E24701E272E1200A4A352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 563E246F1E272E1200A4A352 /* main.m */; };
 		563E24731E272E1200A4A352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563E24721E272E1200A4A352 /* AppDelegate.m */; };
 		563E24761E272E1200A4A352 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563E24751E272E1200A4A352 /* ViewController.m */; };
-		563E24791E272E1200A4A352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563E24771E272E1200A4A352 /* Main.storyboard */; };
 		563E247B1E272E1200A4A352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563E247A1E272E1200A4A352 /* Assets.xcassets */; };
 		563E247E1E272E1200A4A352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563E247C1E272E1200A4A352 /* LaunchScreen.storyboard */; };
 		563E24891E272E1200A4A352 /* block_danli_delegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563E24881E272E1200A4A352 /* block_danli_delegateTests.m */; };
 		563E24941E272E1200A4A352 /* block_danli_delegateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 563E24931E272E1200A4A352 /* block_danli_delegateUITests.m */; };
+		563E24A31E272EC700A4A352 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563E24A21E272EC700A4A352 /* SecondViewController.m */; };
+		56BC96661E28A56700DE4EA6 /* viewNS.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BC96651E28A56700DE4EA6 /* viewNS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,6 @@
 		563E24721E272E1200A4A352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		563E24741E272E1200A4A352 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		563E24751E272E1200A4A352 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		563E24781E272E1200A4A352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		563E247A1E272E1200A4A352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		563E247D1E272E1200A4A352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		563E247F1E272E1200A4A352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +51,10 @@
 		563E248F1E272E1200A4A352 /* block+danli+delegateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block+danli+delegateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		563E24931E272E1200A4A352 /* block_danli_delegateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = block_danli_delegateUITests.m; sourceTree = "<group>"; };
 		563E24951E272E1300A4A352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563E24A11E272EC700A4A352 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		563E24A21E272EC700A4A352 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		56BC96641E28A56700DE4EA6 /* viewNS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewNS.h; sourceTree = "<group>"; };
+		56BC96651E28A56700DE4EA6 /* viewNS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewNS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +109,14 @@
 				563E24721E272E1200A4A352 /* AppDelegate.m */,
 				563E24741E272E1200A4A352 /* ViewController.h */,
 				563E24751E272E1200A4A352 /* ViewController.m */,
-				563E24771E272E1200A4A352 /* Main.storyboard */,
 				563E247A1E272E1200A4A352 /* Assets.xcassets */,
 				563E247C1E272E1200A4A352 /* LaunchScreen.storyboard */,
 				563E247F1E272E1200A4A352 /* Info.plist */,
 				563E246E1E272E1200A4A352 /* Supporting Files */,
+				563E24A11E272EC700A4A352 /* SecondViewController.h */,
+				563E24A21E272EC700A4A352 /* SecondViewController.m */,
+				56BC96641E28A56700DE4EA6 /* viewNS.h */,
+				56BC96651E28A56700DE4EA6 /* viewNS.m */,
 			);
 			path = "block+danli+delegate";
 			sourceTree = "<group>";
@@ -251,7 +258,6 @@
 			files = (
 				563E247E1E272E1200A4A352 /* LaunchScreen.storyboard in Resources */,
 				563E247B1E272E1200A4A352 /* Assets.xcassets in Resources */,
-				563E24791E272E1200A4A352 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				563E24A31E272EC700A4A352 /* SecondViewController.m in Sources */,
 				563E24761E272E1200A4A352 /* ViewController.m in Sources */,
+				56BC96661E28A56700DE4EA6 /* viewNS.m in Sources */,
 				563E24731E272E1200A4A352 /* AppDelegate.m in Sources */,
 				563E24701E272E1200A4A352 /* main.m in Sources */,
 			);
@@ -314,14 +322,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		563E24771E272E1200A4A352 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				563E24781E272E1200A4A352 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		563E247C1E272E1200A4A352 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -429,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MUPQ82F322;
 				INFOPLIST_FILE = "block+danli+delegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhinenglicai.block-danli-delegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MUPQ82F322;
 				INFOPLIST_FILE = "block+danli+delegate/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zhinenglicai.block-danli-delegate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +518,7 @@
 				563E249A1E272E1300A4A352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563E249B1E272E1300A4A352 /* Build configuration list for PBXNativeTarget "block+danli+delegateTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +527,7 @@
 				563E249D1E272E1300A4A352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		563E249E1E272E1300A4A352 /* Build configuration list for PBXNativeTarget "block+danli+delegateUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +536,7 @@
 				563E24A01E272E1300A4A352 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
